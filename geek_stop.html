@@ -3,18 +3,25 @@
 <head>
 	<meta charset="UTF-8">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!--Link para colocar o ícone de carrinho de compras--> 
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Rationale">
 	<link href="geek_stop_style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="geek_stop.js" />
 	<title>Geek Stop</title>
 </head>
 <body>
 	<header id="topo">
-		<h1>Geek Stop</h1>
+		<a href="#pagina_inicial" class="logo_ancora"><h1 class="logo">Geek Stop</h1></a>
 		<ul>
-			<li><a href="#login">Login</a></li><span>|</span>
-			<li><a href="#cadastre-se">Cadastre-se</a></li><span>|</span>
+			<li><a href="#login" class="posicao_item">Login</a></li><span>|</span>
+			<li><a href="#cadastre-se" class="posicao_item">Cadastre-se</a></li>
 			<li><a href="#carrinho_de_compras"><span class="material-icons">shopping_cart</span></a></li>
 			</ul>
 		</ul>
+
+		<div id="barra de pesquisa" class = "barra_de_pesquisa">
+			<input type="text" placeholder="Busque seu produto aqui" class="campo_de_pesquisa">
+			<button class="botao_pesquisa"><span class="material-icons">search</span></button>
+		</div>
 		
 	</header>
 
@@ -53,7 +60,7 @@
 	</section>
 
 	<footer>
-		<p class="rodape">Autores: João Pedro Castro de Souza Brunet, Marcos Venicio Vieira Lima, Matheus Luiz Mendes, Rafael Petricio Rodrigues, Victor Hugo Bagordakis da Rocha</p>
+		<p>Autores: João Pedro Castro de Souza Brunet, Marcos Venicio Vieira Lima, Matheus Luiz Mendes, Rafael Petricio Rodrigues, Victor Hugo Bagordakis da Rocha</p>
 	</footer>
 
 

@@ -3,25 +3,58 @@ h2, h3{
 	color: #0C0A0D;
 }
 
-.logo{
+.barra_de_pesquisa{
 	display: flex;
-	font-family: 
+	position: absolute;
+	top: 60px;
+	right: 10px;
+}
+
+.campo_de_pesquisa{
+	width: 200px;
+	height: 24px;
+}
+
+.botao_pesquisa{
+	width: 70px;
+	height: 30px;
+}
+
+.logo{
+	position: relative;
+	left: 120px;
+	color: white;
+	align-items: center;
+
+	display: flex;
+	font-family: Rationale, sans-serif;
+	font-size: 60px;
+}
+
+.logo_ancora{
+	text-decoration: none;
 }
 
 header{
+	position: absolute;
+	height: 160px;
+	width: 100%;
 	display: flex;
-	background-color: #BF1600;
+	background-color: #E41730;
+
+	left: 0;
+	top: 0;
 }
 
 header ul{
 	display: flex;
 	flex-direction: row;
-	align-items: center;
+	align-items: flex-end;
 	list-style: none;
 	padding: 0;
-	width: 30%;
+	width: 20%;
 	position: relative;
-	left: 60%;
+	left: 1020px;
 }
 
 header ul li{
@@ -31,18 +64,29 @@ header ul li{
 
 header ul li a{
 	display: inline;
-	padding: 5px 0;
+	padding: 10px 0;
 	width: 100%;
 	text-decoration: none;
 	color: black ;
+}
 
+header ul li a:hover{
+	text-decoration: underline;
+}
+
+.posicao_item{
+	padding-left: 10px;
 }
 
 nav {
+	position: absolute;
+	top: 160px;
+	left: 0;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: #1D1B1D;
+	background-color: #242424;
 }
 
 nav ul{
@@ -68,9 +112,18 @@ nav ul li a{
 	color: #F2F2F2;
 }
 
+nav ul li a:hover{
+	text-decoration: underline;
+}
+
 footer {
-	background-color: #BF1600;
-	display: flex;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background-color: #E41730;
+	
 }
 
 .rodape{
